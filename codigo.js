@@ -1,7 +1,25 @@
-var valorEmDolar = 30;
-var cotacaoDoDolar = 5.32;
+ var valor = document.getElementById('#valor')
 
-var valorEmReal = cotacaoDoDolar * valorEmDolar;
-var nome = 'Rafaella Ballerini';
+ var select = document.getElementById('#moeda')
 
-alert('Olá ' + nome + ' o valor em reais é R$ ' + valorEmReal.toFixed(2));
+ var moeda = select.value()
+
+ var valorConvertido
+
+document.getElementById('#bt-converter').addEventListener("click", function() {
+
+    if(moeda = "dolar"){
+        valorConvertido = valor * 0.20
+        valorConvertido.toLocaleString('pt-BR', {style: 'currency', currency: 'US'})
+    }
+    
+    if(moeda = "euro"){
+        valorConvertido = valor * 0.19
+        valorConvertido.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})
+    }
+
+    document.getElementById('#input-valor')= valorConvertido
+})
+ 
+
+

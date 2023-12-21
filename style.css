@@ -42,4 +42,33 @@ body > img {
 img {
     max-height: 250px;
 }
+
+.text, .bt{
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+input, button, select{
+    background-color: white;
+    border: 1px solid rgb(65, 65, 146);
+}
+
+p{
+    color: white;
+}
+
+select{
+    color: black;
+    cursor: pointer;
+}
+
+.bt, button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
   
