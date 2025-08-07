@@ -1,4 +1,12 @@
-# Conversor-De-Moedas
+# Conversor De Moedas
+
+![Conversor De Moedas - Interface ](assets/img/image.png)
+
+## 💻 Você pode acessar o projeto aqui
+
+[Link do site](https://nnathalia.github.io/Conversor-De-Moedas/)
+
+## 🧠 Sobre o Projeto
 
 Este projeto é um simples conversor de moedas desenvolvido durante a 7ª edição da Imersão Dev Alura, na primeira aula. O objetivo é praticar manipulação do DOM com JavaScript e converter valores de reais para moedas estrangeiras, como dólar e euro.
 
@@ -18,4 +26,3 @@ Este projeto é um simples conversor de moedas desenvolvido durante a 7ª ediç�
 - CSS para estilização.
 - JavaScript para manipulação dos elementos e cálculo da conversão.
 
-![](image.png)
